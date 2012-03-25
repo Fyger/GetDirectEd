@@ -1,59 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical" >
-
-    <RelativeLayout
-        android:id="@+id/relativeLayout1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" >
-
-        <ImageButton
-            android:id="@+id/imageButton1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginLeft="60dp"
-            android:layout_marginTop="70dp"
-            android:src="@android:drawable/btn_star" />
-
-        <ImageButton
-            android:id="@+id/imageButton2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignTop="@+id/imageButton1"
-            android:layout_marginLeft="81dp"
-            android:layout_toRightOf="@+id/imageButton1"
-            android:src="@android:drawable/btn_star" />
-
-        <ImageButton
-            android:id="@+id/imageButton3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/imageButton1"
-            android:layout_below="@+id/imageButton1"
-            android:layout_marginTop="48dp"
-            android:src="@android:drawable/btn_star" />
-
-        <ImageButton
-            android:id="@+id/imageButton4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/imageButton2"
-            android:layout_alignTop="@+id/imageButton3"
-            android:src="@android:drawable/btn_star" />
-
-        <ImageButton
-            android:id="@+id/imageButton5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/imageButton3"
-            android:layout_marginTop="46dp"
-            android:layout_toLeftOf="@+id/imageButton2"
-            android:src="@android:drawable/btn_star" />
-
-    </RelativeLayout>
-
-</LinearLayout>

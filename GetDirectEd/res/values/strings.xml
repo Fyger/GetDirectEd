@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="hello">Hello World, GetDirectEdActivity!</string>
     <string name="app_name">GetDirectEd</string>
-    <string name="Activities">Activities</string>
-    <string name="Facilities">Facilities</string>
-    <string name="Events">Events</string>
-    <string name="rNow">Right Now</string>
-    <string name="Favorites">Favorites</string>
+    
+    <string-array name="choices">
+        <item name="Favorites">Favorites</item>
+        <item name="Activities">Activities</item>
+        <item name="Facilities">Facilities</item>
+        <item name="Events">Events</item>
+        <item name="rNow">Right Now</item>
+    </string-array>
 
 </resources>
