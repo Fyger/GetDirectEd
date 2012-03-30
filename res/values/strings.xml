@@ -3,11 +3,16 @@
     <string name="app_name">GetDirectEd</string>
     
     <string-array name="choices">
-        <item name="Favorites">Favorites</item>
-        <item name="Activities">Activities</item>
-        <item name="Facilities">Facilities</item>
-        <item name="Events">Events</item>
-        <item name="rNow">Right Now</item>
+        <item >Favourites</item>
+        <item >Activities</item>
+        <item >Facilities</item>
+        <item >Events</item>
+        <item >Right Now</item>
     </string-array>
+        <string name="activities">Activities</string>
+        <string name="facilities">Facilities</string>
+        <string name="event">Event</string>
+        <string name="r_now">Right Now</string>
+        <string name="favourites">Favourites</string>
 
 </resources>

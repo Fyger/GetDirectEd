@@ -2,39 +2,33 @@ package appEd.getDirectEd.main;
 
 
 
-import android.app.ListActivity;
-import android.content.res.Resources;
+
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.*;
-import android.widget.AdapterView.*;
 
-public class GetDirectEdActivity extends ListActivity {
+public class GetDirectEdActivity extends Activity {
 	
-	Resources res = getResources();
-	String[] choices = res.getStringArray(R.array.choices);
 	
-@Override
-public void onCreate(Bundle savedInstanceState) {
-	super.onCreate(savedInstanceState);
+	
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
 
-	// no more this
-	//setContentView(R.layout.list_fruit);
+	
+		setContentView(R.layout.main_view);
+	
+		
+		Button button1 = (Button)findViewById(R.id.button1);
+		button1.setOnClickListener(new OnClickListener() {
+			public void onClick(View arg0) {
+				Intent intent = new Intent(GetDirectEdActivity.this, ActivitiesActivity.class);
+            	startActivity(intent);       
+			}
+		});
 
-	setListAdapter(new ArrayAdapter<String>(this, R.layout.main_view, choices));
-
-	ListView listView = getListView();
-	listView.setTextFilterEnabled(true);
-
-	listView.setOnItemClickListener(new OnItemClickListener() {
-		public void onItemClick(AdapterView<?> parent, View view,
-				int position, long id) {
-		    // When clicked, show a toast with the TextView text
-		    Toast.makeText(getApplicationContext(),
-			((TextView) view).getText(), Toast.LENGTH_SHORT).show();
-		}
-	});
-
-    
-}
+	}
 }

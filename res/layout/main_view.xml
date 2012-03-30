@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:padding="10dp"
-    android:textSize="20sp" >
-</TextView>
+    android:textSize="20sp"
+    android:orientation="vertical"  >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:text="@string/activities" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:text="@string/facilities" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:text="@string/event" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:text="@string/r_now" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="@string/favourites" />
+
+</LinearLayout>
