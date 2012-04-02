@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+        
     <string name="app_name">GetDirectEd</string>
+    <string name="favourites">Favourites</string>
+    <string name="activities">Activities</string>
+    <string name="facilities">Facilities</string>
+    <string name="event">Events</string>
+    <string name="r_now">Right Now</string>
     
     <string-array name="choices">
-        <item >Favourites</item>
-        <item >Activities</item>
-        <item >Facilities</item>
-        <item >Events</item>
-        <item >Right Now</item>
+        <item>@string/favourites</item>
+        <item>@string/activities</item>
+        <item>@string/facilities</item>
+        <item>@string/event</item>
+        <item>@string/r_now</item>
     </string-array>
-        <string name="activities">Activities</string>
-        <string name="facilities">Facilities</string>
-        <string name="event">Event</string>
-        <string name="r_now">Right Now</string>
-        <string name="favourites">Favourites</string>
 
 </resources>
