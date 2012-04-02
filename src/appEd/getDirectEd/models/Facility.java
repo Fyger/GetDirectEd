@@ -33,6 +33,7 @@ public class Facility extends MVCmodel<MVCview> {
 	private String description;
 	private String image;
 	
+	
 	/**
 	 * Facility generation requires no specialized inputs
 	 */
