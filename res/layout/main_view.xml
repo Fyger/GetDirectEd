@@ -7,31 +7,31 @@
     android:orientation="vertical"  >
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/activityBtnMain"
         android:layout_width="276dp"
         android:layout_height="wrap_content"
         android:text="@string/activities" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/facilityBtnMain"
         android:layout_width="275dp"
         android:layout_height="wrap_content"
         android:text="@string/facilities" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/eventBtnMain"
         android:layout_width="277dp"
         android:layout_height="wrap_content"
         android:text="@string/event" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/rightNowBtnMain"
         android:layout_width="277dp"
         android:layout_height="wrap_content"
         android:text="@string/r_now" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/favoriteBtnMain"
         android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:text="@string/favourites" />
